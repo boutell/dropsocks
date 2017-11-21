@@ -11,13 +11,11 @@ if (!fs.existsSync(uploads)) {
 }
 
 app.post('/', function(req, res) {
-  console.log(req.files);
   if (!req.files.file) {
     return res.status(400).send('bad request');
   }
   var name = req.files.file.name;
   var path = req.files.file.path;
-  console.log(name);
   var matches = name.match(/([^\/]+)\.([^\.]+$)/);
   if (!matches) {
     return res.status(400).send('bad request');

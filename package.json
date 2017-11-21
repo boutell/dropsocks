@@ -1,6 +1,6 @@
 {
   "name": "dropsocks",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A simple web-based file sharing service. I wrote it to drop video files onto my Mac via wifi from my Android phone.",
   "main": "app.js",
   "scripts": {
