@@ -1,0 +1,28 @@
+{
+  "name": "dropsocks",
+  "version": "1.0.0",
+  "description": "A simple web-based file sharing service. I wrote it to drop video files onto my Mac via wifi from my Android phone.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/boutell/dropsocks.git"
+  },
+  "keywords": [
+    "upload"
+  ],
+  "author": "Thomas Boutell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/boutell/dropsocks/issues"
+  },
+  "homepage": "https://github.com/boutell/dropsocks#readme",
+  "dependencies": {
+    "connect-multiparty": "^2.1.0",
+    "express": "^4.16.2",
+    "network": "^0.4.0",
+    "sluggo": "^0.2.0"
+  }
+}
